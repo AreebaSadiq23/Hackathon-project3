@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editable Resume Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Editable Resume</h1>
+
+  <div class="resume-container">
+    <div class="resume-section">
+      <h2 contenteditable="true" id="name">Abc</h2>
+      <p><strong>Email:</strong> <span contenteditable="true" id="email">Abc@example.com</span></p>
+      <p><strong>Phone:</strong> <span contenteditable="true" id="phone">123-456-7890</span></p>
+      <p><strong>Education:</strong> <span contenteditable="true" id="education"> Computer Science</span></p>
+      <p><strong>Skills:</strong> <span contenteditable="true" id="skills">TypeScript, HTML, CSS</span></p>
+      <p><strong>Experience:</strong> <span contenteditable="true" id="experience">1 years as a Web Developer</span></p>
+    </div>
+
+    <button id="saveButton">Save Resume</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
