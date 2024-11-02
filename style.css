@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.resume-container {
+  width: 8.5in;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+section {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}

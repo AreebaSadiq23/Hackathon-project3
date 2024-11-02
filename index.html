@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editable Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+  <div class="resume-container">
+    <header>
+      <h1 contenteditable="true" id="name">Your Name</h1>
+      <p contenteditable="true" id="jobTitle">Job Title / Position</p>
+      <p contenteditable="true" id="contact">Email | Phone | LinkedIn</p>
+    </header>
+    <section class="summary">
+      <h2>Summary</h2>
+      <p contenteditable="true" id="summary">A brief summary about your professional experience and skills.</p>
+    </section>
+    <section class="experience">
+      <h2>Experience</h2>
+      <div class="job" contenteditable="true" id="experience">
+        <h3>Job Title</h3>
+        <p>Company Name | Location | Dates</p>
+        <ul>
+          <li>Key responsibility or achievement</li>
+          <li>Another key responsibility or achievement</li>
+        </ul>
+      </div>
+    </section>
+    <section class="education">
+      <h2>Education</h2>
+      <div class="school" contenteditable="true" id="education">
+        <h3>Degree</h3>
+        <p>School Name | Graduation Date</p>
+      </div>
+    </section>
+  </div>
+  <button id="downloadBtn">Download PDF</button>
+  <script src="app.js"></script>
+</body>
+</html>
